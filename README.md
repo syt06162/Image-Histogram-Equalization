@@ -12,3 +12,8 @@ OpenCV2 함수를 사용하지 않고 Histogram Equalization 직접 구현.
 ## 사용 기술
 - python 3
 - OpenCV2 라이브러리로는 쉽게 구현할 수 있는 기능이지만, 해당 함수를 사용하지 않고 직접 코드로 구현하였다. OpenCV2 함수에 대해서는 code에 주석으로 기재해두었다.
+
+## 사용 방법
+- histogram_equalization.py 파일과 같은 경로에 image 파일을 둔다.
+- 코드의 1번째 줄에 OPEN_IMAGE_NAME 변수에 해당 image 파일의 파일 이름을 확장자까지 포함해서 작성한다.
+- 코드를 실행하면 이미지 결과, 히스토그램 결과 창이 띄워지며, 결과 이미지가 같은 경로에 저장된다.
